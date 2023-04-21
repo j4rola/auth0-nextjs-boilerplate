@@ -12,6 +12,7 @@ export default function Profile() {
   return (
     user && (
       <div style={{padding: '10px'}}>
+        <h5>Currently logged in user: </h5>
         <img src={user.picture} alt={user.name} />
         <h2>{user.name}</h2>
         <p>{user.email}</p>
